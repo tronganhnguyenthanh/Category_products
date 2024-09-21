@@ -1,0 +1,21 @@
+.card:hover{
+  cursor:pointer;
+}
+
+.btn-custom-responsive{
+  border:none;
+  cursor:pointer;
+  padding:10px;
+  text-transform:capitalize;
+  border-radius:20px;
+}
+
+.btn-custom-responsive:active{
+  box-shadow:none !important;
+}
+
+@media (max-width: 576px){
+  .btn-custom-responsive{
+    width:100% !important;
+  }
+}
